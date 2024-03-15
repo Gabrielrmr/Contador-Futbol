@@ -1,8 +1,18 @@
 
-<div>
+<link rel="stylesheet" href="app.component.css">
+<div class="Principal">
+  <div class="Equipos">
+    <div class="Equipo1">
+      <img src="assets/Balon.png" alt="">
+      <h3 class="NombreEquipo1">Equipo 1</h3>
+    </div>
+    <h3 class="VS">VS</h3>
+    <div class="Equipo2">
+      <img src="assets/Balon.png" alt="">
+      <h3 class="NombreEquipo2">Equipo 2</h3>
+    </div>
+  </div>
   <app-contador-puntos></app-contador-puntos>
-  <app-contador-tiempo></app-contador-tiempo>
-  <button class="Iniciar">Comenzar Partido</button>
 </div>
 
 <router-outlet />

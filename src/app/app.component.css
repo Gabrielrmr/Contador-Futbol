@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+  margin: 0 !important;
+  padding: 0 !important;
+  gap: 3vw;
+}
+.Principal{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.Equipos{
+  display: flex;
+  width: 50vw;
+  height: 4vw;
+  border-radius: 2vw;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(271deg, red, black, blue);
+}
+.Equipo2,.Equipo1{
+  display: flex;
+  width: 11vw;
+  height: 3vw;
+  align-items: center;
+  color: white;
+  gap: 1vw;
+}
+.Equipo1 img,.Equipo2 img{
+  width: 3vw;
+  height: 3vw;
+}
+.Equipo2 h3,.Equipo1 h3{
+  font-family:"IBM-Plex-Mono" ;
+}
+.VS{
+  color: white;
+  border-bottom: 0.3vw solid white;
+  width: 10vw;
+  height: 2.5vw;
+  border-left: 0.3vw solid white;
+  border-right: 0.3vw solid white;
+  border-bottom-right-radius: 1vw;
+  border-bottom-left-radius: 1vw;
+  font-size: 1.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
